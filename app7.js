@@ -24,10 +24,10 @@ val=numbers.indexOf(36);
 
 //Mutating Arrays
 numbers.push(250); //add on to end
-numbers.unshift(120); //add to beginning
 numbers.pop(); //Take off from end
+numbers.unshift(120); //add to beginning
 numbers.shift(); //Take off from front
-numbers.splice(1,1); //Splice values, first item is the amount to remove from array, second item is the index location to pop off
+numbers.splice(1,1); //Splice values, first item is the index location to start at, second item is the amount to remove from array
 numbers.reverse(); //reverse the array
 
 
