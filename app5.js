@@ -12,7 +12,7 @@ val = firstName+' '+lastName;
 
 //Append
 val='Bob ';
-val+='Smith';
+val+='Smith'; //use += to append the variable value
 
 val='Hello, my name is '+firstName+' and I am '+age;
 

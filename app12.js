@@ -3,7 +3,7 @@ function greet(firstName='John',lastName='Doe'){
     // console.log('hello')
     return 'Hello ' + firstName + ' ' +lastName
 }
-// console.log(greet('John','Smith'));
+console.log(greet('John','Smith'));
 
 
 
@@ -12,17 +12,17 @@ const square = function(x){
     return x*x
 }
 
-// console.log(square(8))
+console.log(square(8))
 
 
-//immediately invokable function expressions - IFFEs
-// (function(){
-//     console.log('IFFE Ran..')
-// })()
+// immediately invokable function expressions - IFFEs
+(function(){
+    console.log('IFFE Ran..')
+})()
 
-// (function(name){
-//     console.log('Hello '+name)
-// })('Brad')
+(function(name){
+    console.log('Hello '+name)
+})('Brad')
 
 
 
