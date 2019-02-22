@@ -2,22 +2,22 @@
 
 // console.log(123)
 
-// //ALERT
-// window.alert('Hello Everyone!')
-// //or
-// alert('Hello Everyone')
+//ALERT
+window.alert('Hello Everyone!')
+//or
+alert('Hello Everyone')
 
-// //PROMPT
-// const input = prompt()
-// alert(input)
-// //insert a line of text into the alert function using the prompt function to display an alert of the input value
+//PROMPT
+const input = prompt()
+alert(input)
+//insert a line of text into the alert function using the prompt function to display an alert of the input value
 
-// //CONFIRM
-// if(confirm('Are you sure?')){
-//     console.log('Yes')
-// } else {
-//     console.log('No')
-// }
+//CONFIRM
+if(confirm('Are you sure?')){
+    console.log('Yes')
+} else {
+    console.log('No')
+}
 
 
 let val;
@@ -44,14 +44,14 @@ val = window.location.href;
 val = window.location.search;
 
 // Redirect
-// window.location.href = 'http://google.com' //assigns a new location using a url
+window.location.href = 'http://google.com' //assigns a new location using a url
 
 //Reload
-// window.location.reload() //reloads the page
+window.location.reload() //reloads the page
 
 //History Object
-// window.history.go(-1); //go backs one page
-// val = window.history.length; //the number of pages cached in your current tabs history
+window.history.go(-1); //go backs one page
+val = window.history.length; //the number of pages cached in your current tabs history
 
 //Navigator Object
 val = window.navigator;
